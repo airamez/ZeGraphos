@@ -36,8 +36,21 @@ var weightedPath = weightedGraph.ShortestPath().Dijkstra().From("A", "D");
 
 ## Installation
 
+This project is not yet published to NuGet. To use ZeGraphos:
+
+1. Clone this repository:
+```bash
+git clone https://github.com/airamez/ZeGraphos.git
 ```
-dotnet add package ZeGraphos
+
+2. Add the project to your solution:
+```bash
+dotnet sln add path/to/ZeGraphos/src/ZeGraphos/ZeGraphos.csproj
+```
+
+3. Add reference to your project:
+```bash
+dotnet add reference path/to/ZeGraphos/src/ZeGraphos/ZeGraphos.csproj
 ```
 
 ## Documentation
