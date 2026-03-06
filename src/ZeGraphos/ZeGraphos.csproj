@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageId>ZeGraphos</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>ZeGraphos Team</Authors>
+    <Description>A comprehensive graph library for C# .NET 10 with support for all common graph types and built-in algorithms.</Description>
+    <PackageTags>graph;algorithms;shortest-path;maximum-flow;minimum-spanning-tree;coloring;topological-sort</PackageTags>
+    <PackageReadmeFile>..\README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/zegraphos/zegraphos</RepositoryUrl>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+  </ItemGroup>
+
+</Project>
