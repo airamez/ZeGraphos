@@ -280,10 +280,10 @@ For detailed testing information, see the [Testing Guide](testing.md).
 
 Now that you understand the basics, explore:
 
-1. **[Algorithm Examples](examples/algorithm-examples.md)** - Detailed algorithm implementations
+1. **[Algorithm Examples](examples/basic-usage.md)** - Detailed algorithm implementations
 2. **[Real-world Scenarios](examples/real-world-scenarios.md)** - Practical applications
 3. **[Performance Guide](performance.md)** - Optimization tips
-4. **[API Reference](api/)** - Complete method documentation
+4. **[API Reference](algorithms.md)** - Complete method documentation
 
 ## 💡 Tips
 

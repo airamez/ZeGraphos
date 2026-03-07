@@ -26,6 +26,10 @@ public class HubLabeling<T, TWeight>
     private readonly Func<TWeight, TWeight, int> _compare;
     private readonly TWeight _infinity;
 
+    /// <summary>
+    /// Initializes a new instance of the HubLabeling algorithm.
+    /// </summary>
+    /// <param name="graph">The weighted graph to process.</param>
     public HubLabeling(IWeightedGraph<T, TWeight> graph)
     {
         _graph = graph ?? throw new ArgumentNullException(nameof(graph));

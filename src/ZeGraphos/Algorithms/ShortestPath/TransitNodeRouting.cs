@@ -27,6 +27,10 @@ public class TransitNodeRouting<T, TWeight>
     private readonly Func<TWeight, TWeight, int> _compare;
     private readonly TWeight _infinity;
 
+    /// <summary>
+    /// Initializes a new instance of the TransitNodeRouting algorithm.
+    /// </summary>
+    /// <param name="graph">The weighted graph to process.</param>
     public TransitNodeRouting(IWeightedGraph<T, TWeight> graph)
     {
         _graph = graph ?? throw new ArgumentNullException(nameof(graph));

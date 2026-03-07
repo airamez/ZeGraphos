@@ -36,23 +36,7 @@ var weightedPath = weightedGraph.ShortestPath().Dijkstra().From("A", "D");
 
 ## Installation
 
-### Option 1: NuGet Package (Recommended)
-
-Install the NuGet package via .NET CLI:
-
-```bash
-dotnet add package ZeGraphos
-```
-
-Or via Package Manager Console:
-
-```powershell
-Install-Package ZeGraphos
-```
-
-### Option 2: Clone Repository
-
-For development or to use the latest source code:
+This project is not yet published to NuGet. To use ZeGraphos:
 
 1. Clone this repository:
 ```bash
@@ -72,43 +56,3 @@ dotnet add reference path/to/ZeGraphos/src/ZeGraphos/ZeGraphos.csproj
 ## Documentation
 
 See the [docs](docs/) folder for detailed API documentation and examples.
-
-## Supported Graph Types
-
-- **Directed Graphs** - Unidirectional edges
-- **Undirected Graphs** - Bidirectional edges
-- **Weighted Graphs** - Edges with numeric weights
-- **Unweighted Graphs** - Edges without weights
-- **All combinations** of the above types
-
-## Available Algorithms
-
-### Shortest Path
-- **BFS** - Unweighted graphs
-- **Dijkstra** - Weighted graphs with non-negative weights
-- **A*** - Weighted graphs with heuristic
-- **Floyd-Warshall** - All pairs shortest paths
-
-### Other Algorithms
-- **Maximum Flow** - Ford-Fulkerson, Edmonds-Karp
-- **Minimum Spanning Tree** - Kruskal, Prim
-- **Graph Coloring** - Vertex coloring
-- **Topological Sorting** - DAG ordering
-- **Connected Components** - DFS/BFS based
-- **Cycle Detection** - DFS based
-
-## Performance
-
-ZeGraphos is optimized for single-machine memory usage with:
-- Efficient adjacency list implementation
-- Minimal memory overhead
-- O(1) edge lookup for most operations
-- Lazy evaluation where possible
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

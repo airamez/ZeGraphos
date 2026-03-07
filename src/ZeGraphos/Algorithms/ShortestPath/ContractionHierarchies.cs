@@ -26,6 +26,10 @@ public class ContractionHierarchies<T, TWeight>
     private readonly Func<TWeight, TWeight, int> _compare;
     private readonly TWeight _infinity;
 
+    /// <summary>
+    /// Initializes a new instance of the ContractionHierarchies algorithm.
+    /// </summary>
+    /// <param name="graph">The weighted graph to process.</param>
     public ContractionHierarchies(IWeightedGraph<T, TWeight> graph)
     {
         _originalGraph = graph ?? throw new ArgumentNullException(nameof(graph));
